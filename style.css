@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #3BCAAD;
+    padding: 20px;
+}
+.logo{
+    color: white;
+    width: 50%;
+    float: left;
+}
+.logo h3{
+    margin-bottom: 0;
+  display: inline-block;
+}
+.menu{
+    width: 50%;
+    overflow: hidden;
+}
+.menu ul{
+    margin-bottom: 0;
+}
+.menu ul li{
+ display: inline-block;
+ list-style: none;
+}
+.menu ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: violet;
+}
+/* contant */
+.contant{
+    background: url(https://i.postimg.cc/0Q02XskB/header-bg01.jpg) no-repeat center center scroll; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    padding:160px;
+    color: white;
+}
+.baner{
+    display: inline-block;
+}
+.baner h1{
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 50px;
+}
+.baner p{
+    font-weight: 600;
+    color: wheat;
+}
+.baner a{
+    display: inline-block;
+    text-transform: uppercase;
+   text-decoration: none;
+   color: white;
+   margin: 30px 0;
+   padding:8px 15px;
+   border: 2px solid white;
+   border-radius: 5px;
+   font-weight: 600;
+}
+/* service */
+.service{
+    padding: 80px;
+    text-align: center;
+    position: relative;
+}
+.first{
+    display: inline-block;
+}
+.service h3{
+    font-weight: 600;
+    margin: 10px 0;
+}
+.service  p{
+    font-weight: 500;
+    color: grey;
+    
+}
+.scedend {
+    display:block;
+}
+.scedend .a{
+    width: 17%;
+    float: left;
+    display: inline-block;
+    margin: 38px;
+}
+.scedend .b{
+    width: 17%;
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+    margin: 38px;
+}
+.scedend .c{
+    width: 17%;
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+    margin: 38px;
+}
+
+.scedend .d{
+    display: inline-block;
+    width: 17%;
+    margin: 38px;
+   
+}
+.scedend i{
+    font-size: 40px;
+    margin: 15px 0;
+    color: #3BCAAD;
+}
+.scedend h4{
+    font-weight: 600;
+}
+.service::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height: 3px;
+    background-color: #3BCAAD;
+}
+/* about */
+.about{
+    padding: 70px;
+
+}
+.about .aboutHeadr{
+    text-align: center;
+}
+.about .aboutHeadr h3{
+    font-weight: 600;
+}
+.about .aboutHeadr p{
+    font-weight: 500;
+    color: grey;
+}
+.about .imges  {
+   display: inline-block;
+   width: 50%;
+   float: left;
+}
+.about .contant1{
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 19px;
+
+ }
+.about .imges img{
+    width: 95%;
+    margin: 5%;
+}
+.about .contant1 h6{
+    width: 95%;
+    margin:1% 5%;
+    font-size: 15px;
+    font-weight: 600;
+    color: grey;
+    font-size: 18px;
+}
+.about .contant1 p{
+    width: 95%;
+    margin: 0 5%;
+    font-size: 14px;
+    font-weight: 300;
+}
+/* contact */
+.contact{
+    padding: 70px;
+    background-color: #F6F6F6;
+    text-align: center;
+}
+.contacthead{
+    display: inline-block;
+    
+}
+.contacthead h3{
+    font-weight: 600;
+}
+.contacthead p{
+    font-weight: 400;
+    color: grey;
+}
+
+.contactfootter{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.contactfootter .j{
+    width: 33%;
+    float: left;
+    display: inline-block;
+}
+.contactfootter .g{
+    width: 33%;
+    float: left;
+    display: inline-block;
+}
+.contactfootter .c{
+    width: 33%;
+    float: left;
+    display: inline
+}
+.contactfootter address{
+    margin: 0;
+    color: grey;
+}
+.contactfootter i{
+display: block;
+font-size: 20px;
+color: #3BCAAD;
+margin: 5px;
+}
+.contactfootter a{
+display: block;
+text-decoration: none;
+color: grey;
+}
+/* icon */
+.icon{
+   background-color: #3BCAAD;
+    padding: 30px;
+}
+.icon ul{
+text-align: center;
+margin: 0;
+}
+.icon ul li{
+display: inline-block;
+list-style: none;
+}
+.icon ul li a{
+padding: 5px 10px;
+color: white;
+font-size: 20px;
+}
+/* footter */
+.footter{
+    background-color: #000;
+    padding: 25px;
+    text-align: center;
+}
+.footter p{
+    font-size: 20px;
+    margin: 0;
+    color: gray;
+}
